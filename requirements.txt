@@ -1,0 +1,43 @@
+# Core Django
+Django==4.2.16
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+django-filter==24.3
+
+# Auth
+djangorestframework-simplejwt==5.3.1
+
+# API Docs
+drf-spectacular==0.27.2
+
+# Database
+dj-database-url==2.2.0
+# psycopg2-binary is only needed when connecting to PostgreSQL (i.e. on Render).
+# On Windows local dev, SQLite is used by default — psycopg2 is not required.
+# Uncomment the line below ONLY if you have PostgreSQL running locally:
+# psycopg2-binary==2.9.9
+
+# Storage
+django-storages==1.14.4
+boto3==1.35.0
+
+# Async / WebSockets
+channels==4.1.0
+channels-redis==4.2.0
+daphne==4.1.2
+
+# Task queue
+celery==5.4.0
+redis==5.0.8
+
+# Static files
+whitenoise==6.7.0
+
+# HTTP
+requests==2.32.3
+
+# Payments
+razorpay==1.4.1
+
+# Production server
+gunicorn==23.0.0
