@@ -12,7 +12,7 @@ drf-spectacular==0.27.2
 
 # Database
 dj-database-url==2.2.0
-psycopg[binary]==3.2.4
+psycopg[binary]==3.2.13
 
 # Storage
 django-storages==1.14.4
